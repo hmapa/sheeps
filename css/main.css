@@ -1,0 +1,222 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #f0f2ea;
+    font-weight: 400;
+    font-family: "Arial";
+    color: #484a43;
+}
+
+.main-title{
+    color: #636758;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 35px 0 0 0;
+    font-weight: 400;
+}
+
+.header{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 30px;
+}
+
+.first-screen{
+    text-align: center;
+    padding: 145px 0 165px 0;
+    background: url(../img/fs-bg.jpg) no-repeat center top / cover;
+}
+
+.article-link{
+    text-decoration: none;
+}
+
+.first-article-title{
+color: #ffffff;
+font-family: 'Brandon Printed';
+font-size: 36px;
+line-height: 18px;
+text-transform: uppercase;
+letter-spacing: 0.14em;
+font-weight: 400;
+}
+
+.first-article-title::after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 100px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.first-article-sub-title{
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.second-screen{
+    padding-top: 50px;
+    padding-bottom: 32px;
+}
+
+.second-screen_title{
+    font-size: 24px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin: 0 0 40px 0;
+    text-align: center;
+}
+
+.cards{
+    width: 255px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.cards-2, .cards-3{
+    margin-right: 0;
+}
+
+.cards-3{
+    width: 100%;
+    margin-top: 35px;
+}
+
+.articles-title{
+    padding: 65px 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Brandon Printed';
+    font-size: 24px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+}
+
+.second-articles-title{
+    color: #6d7e44;
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 8px 0;
+}
+
+.articles-title1{
+    background: url(../img/article-bg1.jpg) no-repeat center top / cover;
+}
+
+.articles-title2{
+    background: url(../img/article-bg2.jpg) no-repeat center top / cover;
+}
+
+.articles-title3{
+    background: url(../img/article-bg3.jpg) no-repeat center top / cover;
+    padding: 100px 0;
+}
+
+.cards-descr{
+    color: #333;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.footer{
+    border-top: 2px solid #e5e5e5;
+    color: #333;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.credits{
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.credits-title{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 0 12px 0;
+}
+
+.credits-descr{
+    font-size: 11px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.credits-link{
+    color: #6d7e44;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contacts{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contact_links{
+    margin: 0 8px 16px 0;
+}
+
+.contact_links-last{
+    margin: 0 0 16px 0;
+}
+
+.contacts-link{
+    color: #6d7e44;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+    display: block;
+}
+
+.contacts_icons{
+    margin-bottom: 16px;
+}
+
+.unsubscribe{
+    color: #333;
+    font-size: 11px;
+    line-height: 18px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.unsubscribe_link{
+    color: #333;
+}
+
+@font-face {
+    font-family: 'Brandon Printed';
+    src: url('../fonts/BrandonPrinted-One.eot');
+    src: url('../fonts/BrandonPrinted-One.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BrandonPrinted-One.woff2') format('woff2'),
+        url('../fonts/BrandonPrinted-One.woff') format('woff'),
+        url('../fonts/BrandonPrinted-One.ttf') format('truetype'),
+        url('../fonts/BrandonPrinted-One.svg#BrandonPrinted-One') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
